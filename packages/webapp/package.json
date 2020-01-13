@@ -1,0 +1,18 @@
+{
+  "name": "@monorepo-example/webapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7"
+  }
+}
